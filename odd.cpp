@@ -1,17 +1,21 @@
-#include<iostream>
-
+#include <iostream>
 using namespace std;
-
 
 int main ()
 {
-    int x=5;
-    cout<<"Enter"<<endl;
-    
-    if (x%2!=0)
+    int number;
+
+    cout << "Enter a number: ";
+    cin >> number;
+
+    if (number % 2 != 0)   // শুধু Odd হলে
     {
-        cout<<x<<endl;
-        
+        cout << "Odd" << endl;
     }
+    else 
+    {
+        cout<<"Please enter new input"<<endl;
+    }
+
     return 0;
 }
