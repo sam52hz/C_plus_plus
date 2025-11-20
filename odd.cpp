@@ -8,7 +8,7 @@ int main ()
     cout << "Enter a number: ";
     cin >> number;
 
-    if (number % 2 != 0)   // শুধু Odd হলে
+    if (number % 2 != 0) 
     {
         cout << "Odd" << endl;
     }
